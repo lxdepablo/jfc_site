@@ -1,5 +1,45 @@
 # Progress Log — Jehovah's Fitness Club website
 
+## 2026-07-27 (update 5) — content rewrite + visual redesign
+
+Two rounds of changes requested by the user:
+
+**Content**: removed the placeholder hero tagline ("Loud, sweaty, and built
+for repetitions."), replaced the About copy with the band's real bio
+(Boulder-based, seven-piece jazz/Latin/funk/hip-hop group), added the full
+seven-person lineup with instruments, and aligned "Trident" to its full name
+(Trident Booksellers & Cafe) throughout.
+
+**Visual redesign** — "80s workout video" aesthetic: white primary
+background, black + red accents, sharp-edged cards with thick black borders
+and an offset red "sticker" drop-shadow (used on the video frame and show
+cards), a repeating black/red diagonal stripe bar as a section bookend
+(top of page, above footer), and Anton (bold condensed display face) for
+headings in place of Bebas Neue.
+
+Incorporated real band artwork from the `art/` folder the user provided:
+- `JFC_long_logo.svg` (cursive wordmark) → rasterized, trimmed, and used as
+  the header logo and footer logo (`images/wordmark-black.png` /
+  `wordmark-white.png`).
+- `poster_april_bw (1) (3).svg` (illustration of a performer on gymnastics
+  rings, crucifix-posed, "JFC" on the shirt) → rasterized as the hero
+  graphic (`images/gymnast-black.png`), set against a red circle backdrop.
+  Also generated a red-recolored variant (`images/gymnast-red.png`, not
+  currently used on the page, kept in case it's wanted for merch/social).
+- `JFC_logo (3).svg` (hand-painted red "JFC" monogram) → extracted, trimmed,
+  and used as the site favicon (`favicon.ico`, `favicon-32.png`,
+  `apple-touch-icon.png`).
+
+Skipped `frog.png`, `chariot.png`, and `hiding.png` — fun character art, but
+tonally a mismatch for the retro-poster press-kit look, and this is a
+press-facing page. Happy to use them elsewhere (social posts, merch) if
+wanted.
+
+Verified with a headless-Chrome screenshot (no real browser available
+otherwise in this environment) at desktop and mobile widths — no layout
+overflow, all photo/asset paths resolve, video embed renders in its framed
+box.
+
 ## 2026-07-27 (update 4) — Dazzle poster added
 
 Added `dazzle_poster.jpeg` (dropped by the user into `Photos/`) as
