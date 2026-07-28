@@ -17,16 +17,12 @@ To swap any of these out, replace the file (keep the same name) or add a new
 image and update the matching `<figure>`/`<img>` block in the `#epk` section
 of `index.html`.
 
-## Still needed: show posters
+## Show posters
 
-The upcoming-shows section expects two poster images that don't exist yet —
-until they're added, each show card shows a "poster coming soon" placeholder
-instead of a broken image:
+| Filename                          | Show                          | Status |
+|------------------------------------|--------------------------------|--------|
+| `poster-dazzle-2026-08-08.jpg`    | Dazzle — Sat, Aug 8, 2026      | ✅ added |
+| `poster-trident-2026-09-12.jpg`   | Trident — Sat, Sep 12, 2026    | still needed — shows a "poster coming soon" placeholder until added |
 
-| Filename                          | Show                          |
-|------------------------------------|--------------------------------|
-| `poster-dazzle-2026-08-08.jpg`    | Dazzle — Sat, Aug 8, 2026      |
-| `poster-trident-2026-09-12.jpg`   | Trident — Sat, Sep 12, 2026    |
-
-Drop the poster art in with those exact filenames and it'll appear
+Drop poster art in with the exact filename above and it appears
 automatically, no code changes needed.

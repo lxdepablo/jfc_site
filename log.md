@@ -1,5 +1,25 @@
 # Progress Log — Jehovah's Fitness Club website
 
+## 2026-07-27 (update 4) — Dazzle poster added
+
+Added `dazzle_poster.jpeg` (dropped by the user into `Photos/`) as
+`photos/poster-dazzle-2026-08-08.jpg` — resized/compressed to 220KB. Since
+it uses the exact filename the show card already expects, it now renders in
+place of the "poster coming soon" placeholder with no HTML changes. The
+Trident (Sep 12) poster is still outstanding.
+
+## 2026-07-27 (update 3) — custom domain detected
+
+A `CNAME` file was added directly on GitHub (not by this tool), pointing the
+site at `www.jehovahsfitnessclub.com`. Rebased local work on top of it rather
+than overwrite. This changes the GitHub Pages setup step below: after
+enabling Pages (Settings → Pages → Source: main / root), also set **Custom
+domain** to `www.jehovahsfitnessclub.com` there if it isn't picked up
+automatically, and make sure the domain's DNS has a CNAME record pointing
+`www` at `lxdepablo.github.io` (and typically an apex/`A` redirect or ALIAS
+for the bare `jehovahsfitnessclub.com` → `www`, handled at the
+registrar/DNS provider, outside this repo).
+
 ## 2026-07-27 (update 2) — real Apple Music link
 
 Swapped the last placeholder link for the real one: **Apple Music** now
