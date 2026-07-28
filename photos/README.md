@@ -1,21 +1,21 @@
 # Press Photos
 
-The EPK gallery on the homepage currently uses six live photos, two each from
-Larimer Lounge, Lost Lake, and Trident (sourced from `../Photos/`, resized and
-compressed for web use):
+The Gallery section on the homepage currently uses six live photos, two each
+from Larimer Lounge, Lost Lake, and Trident (sourced from `../Photos/`,
+resized and compressed for web use):
 
-| Filename           | Source                                          |
-|---------------------|--------------------------------------------------|
-| `larimer-01.jpg`   | Larimer Lounge — full band, photo by Ivy Owens    |
-| `larimer-02.jpg`   | Larimer Lounge — photo by Ivy Owens               |
-| `lostlake-01.jpg`  | Lost Lake                                         |
-| `lostlake-02.jpg`  | Lost Lake                                         |
-| `trident-01.jpg`   | Trident                                           |
-| `trident-02.jpg`   | Trident                                           |
+| Filename           | Source                                                    |
+|---------------------|------------------------------------------------------------|
+| `larimer-01.jpg`   | Larimer Lounge — full band, color, photo by Ivy Owens       |
+| `larimer-03.jpg`   | Larimer Lounge — black & white, photo by Ivy Owens          |
+| `lostlake-02.jpg`  | Lost Lake — drummer, candid                                  |
+| `lostlake-03.jpg`  | Lost Lake — bassist, warm stage light                        |
+| `trident-02.jpg`   | Trident — candid, drinks on table in foreground              |
+| `trident-03.jpg`   | Trident — daylight, brick venue, trombones                   |
 
 To swap any of these out, replace the file (keep the same name) or add a new
-image and update the matching `<figure>`/`<img>` block in the `#epk` section
-of `index.html`.
+image and update the matching `<figure>`/`<img>` block in the `#gallery`
+section of `index.html`.
 
 ## Show posters
 

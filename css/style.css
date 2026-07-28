@@ -44,10 +44,10 @@ img { max-width: 100%; display: block; }
   padding: 0 24px;
 }
 
-/* Retro stripe divider */
+/* Section divider */
 .stripe-bar {
   height: 10px;
-  background: repeating-linear-gradient(135deg, var(--ink) 0 14px, var(--red) 14px 28px);
+  background: var(--red);
 }
 
 /* Header */

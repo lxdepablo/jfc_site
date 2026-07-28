@@ -1,5 +1,24 @@
 # Progress Log — Jehovah's Fitness Club website
 
+## 2026-07-27 (update 9) — solid red divider, fresh gallery photos
+
+- **Stripe bar (top of page, above footer) is now solid red**, not the
+  black/red diagonal stripe pattern.
+- **Replaced 3 of the 6 gallery photos** for more visual variety: swapped
+  the top-middle, top-right, and bottom-middle tiles. New lineup (still 2
+  photos per venue, repositioned so no two adjacent tiles share the same
+  lighting/color mood):
+  - top-middle: `trident-03.jpg` — daylight, brick venue, trombones
+    (replaces the old `larimer-02.jpg`)
+  - top-right: `lostlake-03.jpg` — warm stage light, bassist close-up
+    (replaces the old `lostlake-01.jpg`)
+  - bottom-middle: `larimer-03.jpg` — black & white, full-band action shot
+    (replaces the old `trident-01.jpg`)
+  - Removed the three superseded files from `photos/` and updated
+    `photos/README.md` to match.
+- Bumped stylesheet cache-busting to `?v=5` (learned from update 8 — any
+  `style.css` edit must bump this in the same commit).
+
 ## 2026-07-27 (update 8) — actually fixed the CSS cache-busting this time
 
 User reported the red circle was still showing after update 7. Root cause:
