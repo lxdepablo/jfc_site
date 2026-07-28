@@ -1,5 +1,23 @@
 # Progress Log — Jehovah's Fitness Club website
 
+## 2026-07-27 (update 8) — actually fixed the CSS cache-busting this time
+
+User reported the red circle was still showing after update 7. Root cause:
+update 7 edited `css/style.css` to remove the circle rule, but the
+stylesheet `<link>` still pointed at `css/style.css?v=3` — the *same*
+version string used since update 6. Confirmed directly against GitHub's
+Pages edge that the server-side file was correct (no circle rule present)
+even at the `v=3` URL, meaning this was purely a client-side cache miss:
+any browser that had already fetched `style.css?v=3` before update 7 had
+no reason to ever refetch that exact URL again, so it kept rendering the
+old (circle-having) CSS indefinitely regardless of how much time passed.
+Bumped to `?v=4` to force every cached copy to be treated as stale.
+
+Lesson for future edits: any time `css/style.css` or the cache-busted image
+files change, the version query param in `index.html` MUST be bumped in
+the same commit — editing the file without changing its URL means cached
+visitors never see the update, no matter how long they wait.
+
 ## 2026-07-27 (update 7) — removed hero circle, confirmed prior fix was a cache issue
 
 User reported the hero still showed a duplicated band-name logo next to the
