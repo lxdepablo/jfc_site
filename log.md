@@ -1,5 +1,32 @@
 # Progress Log — Jehovah's Fitness Club website
 
+## 2026-07-27 (update) — real photos and links
+
+Wired in real assets the user provided after the initial build:
+
+- **EPK gallery** now uses six real live photos instead of placeholders —
+  two each from Larimer Lounge and Lost Lake (from `Photos/Larimer 1-17` and
+  `Photos/Lost Lake 5-30-26`, credited to photographer Ivy Owens for the
+  Larimer shots) and two from Trident (`Photos/Trident 2-21` and
+  `Photos/Trident 3-21`). Originals were 2–13MB each; resized to max 1600px
+  and compressed with ImageMagick down to 224–462KB. See `photos/README.md`
+  for the source mapping.
+- **Instagram**: now links to `instagram.com/jehovahsfitnessclub` (real
+  profile, provided by user).
+- **Spotify**: now links to the real artist page,
+  `open.spotify.com/artist/0YALn4LU3fYaaF4aKDxp1l` (provided by user).
+- **YouTube / Tiny Desk video**: the `#video` section now embeds the real
+  video (ID `WopTDuCCgxg`, provided by user) instead of a placeholder card.
+- **Apple Music** — still unset, no link provided yet. Still points at an
+  Apple Music search for the band name as a working placeholder (header +
+  footer, search for `music.apple.com` in `index.html`).
+- **Show posters** — no poster art was found in the `Photos/` folder (it's
+  all live-show photography, no flyer/poster graphics), so the two poster
+  slots in the Shows section still show the "poster coming soon" placeholder.
+  See `photos/README.md` for the exact filenames they're waiting on.
+- **Venue ticket links** — unchanged, still general venue-info links (see
+  note below), not confirmed ticket-purchase URLs for these specific dates.
+
 ## 2026-07-27
 
 Built the initial site per the brief in `claude.md`. Plain static HTML/CSS/JS

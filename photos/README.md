@@ -1,24 +1,32 @@
 # Press Photos
 
-Drop your electronic press kit photos in this folder using the filenames below.
-The site's EPK gallery on the homepage looks for these exact names — once a file
-is added, its placeholder tile on the site is replaced automatically (no code
-changes needed, just refresh).
+The EPK gallery on the homepage currently uses six live photos, two each from
+Larimer Lounge, Lost Lake, and Trident (sourced from `../Photos/`, resized and
+compressed for web use):
 
-| Filename        | Suggested use                          |
-|-----------------|-----------------------------------------|
-| `band-01.jpg`   | Main promo / hero shot                  |
-| `band-02.jpg`   | Promo shot (alt crop/angle)             |
-| `band-03.jpg`   | Promo shot (alt crop/angle)             |
-| `live-01.jpg`   | Live performance photo                  |
-| `live-02.jpg`   | Live performance photo                  |
-| `live-03.jpg`   | Live performance photo                  |
-| `poster-dazzle-2026-08-08.jpg`  | Show poster — Dazzle, Aug 8, 2026    |
-| `poster-trident-2026-09-12.jpg` | Show poster — Trident, Sep 12, 2026  |
+| Filename           | Source                                          |
+|---------------------|--------------------------------------------------|
+| `larimer-01.jpg`   | Larimer Lounge — full band, photo by Ivy Owens    |
+| `larimer-02.jpg`   | Larimer Lounge — photo by Ivy Owens               |
+| `lostlake-01.jpg`  | Lost Lake                                         |
+| `lostlake-02.jpg`  | Lost Lake                                         |
+| `trident-01.jpg`   | Trident                                           |
+| `trident-02.jpg`   | Trident                                           |
 
-Recommended: landscape or square JPGs, at least 1200px on the long edge, under
-~500KB each (compress before adding so the site stays fast).
+To swap any of these out, replace the file (keep the same name) or add a new
+image and update the matching `<figure>`/`<img>` block in the `#epk` section
+of `index.html`.
 
-You can add more than six photos — just follow the same naming pattern
-(`band-04.jpg`, `live-04.jpg`, etc.) and add a matching `<img>`/tile in the
-gallery section of `index.html`.
+## Still needed: show posters
+
+The upcoming-shows section expects two poster images that don't exist yet —
+until they're added, each show card shows a "poster coming soon" placeholder
+instead of a broken image:
+
+| Filename                          | Show                          |
+|------------------------------------|--------------------------------|
+| `poster-dazzle-2026-08-08.jpg`    | Dazzle — Sat, Aug 8, 2026      |
+| `poster-trident-2026-09-12.jpg`   | Trident — Sat, Sep 12, 2026    |
+
+Drop the poster art in with those exact filenames and it'll appear
+automatically, no code changes needed.
