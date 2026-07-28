@@ -1,5 +1,29 @@
 # Progress Log — Jehovah's Fitness Club website
 
+## 2026-07-27 (update 7) — removed hero circle, confirmed prior fix was a cache issue
+
+User reported the hero still showed a duplicated band-name logo next to the
+red circle behind the gymnast graphic. Two things:
+
+- **Removed the red circle backdrop** behind the hero illustration entirely
+  (`.hero-art::before` in `css/style.css`), per the request.
+- **The "duplicated logo" was stale cache, not a leftover bug.** The
+  previous update (update 6) already fixed the gymnast art to remove the
+  baked-in wordmark, but only the stylesheet link got a cache-busting
+  version param — the image files kept their old filenames, so a browser
+  that had already cached `images/gymnast-black.png` from before that fix
+  had no reason to refetch it. Confirmed via a local headless-browser
+  screenshot that the actual current artwork is correct (single wordmark,
+  no circle). Added `?v=2` cache-busting params to all four custom image
+  references (`wordmark-black.png`, `wordmark-white.png`,
+  `gymnast-black.png`) so this can't recur — same fix pattern as the CSS
+  cache issue from update 6, just extended to images.
+
+If a visitor still sees the old version after this, it's almost certainly
+their browser cache — a hard refresh (Ctrl/Cmd+Shift+R) or private window
+will show the current version immediately, since the URLs themselves have
+changed.
+
 ## 2026-07-27 (update 6) — Gallery rename, fixed hero art, cache-busting
 
 User feedback after the redesign:
