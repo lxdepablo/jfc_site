@@ -1,5 +1,14 @@
 # Progress Log — Jehovah's Fitness Club website
 
+## 2026-07-27 (update 2) — real Apple Music link
+
+Swapped the last placeholder link for the real one: **Apple Music** now
+points to `music.apple.com/us/artist/jehovahs-fitness-club/1747247595`
+(header + footer), provided by the user. All four platform links
+(Instagram, Spotify, Apple Music, YouTube) are now real. Only remaining
+placeholders are the two show posters and the venue ticket links (see notes
+below).
+
 ## 2026-07-27 (update) — real photos and links
 
 Wired in real assets the user provided after the initial build:
