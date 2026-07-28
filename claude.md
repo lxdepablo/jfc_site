@@ -1,0 +1,3 @@
+Create a website for my band, Jehovah's Fitness Club.
+
+The website should include links to our Instagram page, spotify, apple music, and youtube. An electronic press kit (photos provided in the photos folder). A description of our band and references to our recent gigs at Larimer Lounge, Lost Lake, and our monthly residency at Trident. An embedded youtube video of our tiny desk contest entry (Lofi Therapy). There should also be a list of upcoming shows, which should include our show at Dazzle August 8th and show at Trident September 12th. Each show should have a place to put the poster and a ticket link where it's relevant. push all the website stuff to GitHub so i can access the site via GitHub sites. document your progress in a file called log.md.
