@@ -1,5 +1,29 @@
 # Progress Log — Jehovah's Fitness Club website
 
+## 2026-07-27 (update 6) — Gallery rename, fixed hero art, cache-busting
+
+User feedback after the redesign:
+
+- **"Electronic Press Kit" renamed to "Gallery"** — nav link, hero CTA
+  button, section heading, and section id/class (`#epk` → `#gallery`).
+- **Fixed a real bug in the hero art**: the illustration used as the hero
+  graphic (`images/gymnast-black.png`) had the cursive wordmark baked into
+  its top edge (it's one combined piece of art in the source file), so the
+  band name was rendering twice — once cleanly as the big h1, once cramped
+  above the gymnast figure. Traced this to the source SVG having two
+  layers (figure + wordmark); regenerated the hero art from the figure
+  layer only, so the wordmark now appears exactly once.
+- **"Colors still displaying as black and green" was a caching issue, not a
+  code bug.** Verified directly against GitHub's Pages edge (bypassing DNS)
+  that the deployed CSS is the new white/black/red stylesheet, not the old
+  dark/lime-green one — that old palette (`#0b0b0c` bg / `#d4ff3f` accent)
+  matches what the user described, meaning their browser (or an
+  intermediate cache) was still serving a pre-redesign copy. Added a
+  `?v=3` cache-busting query param to the stylesheet link so future CSS
+  changes force a fresh fetch instead of relying on users to hard-refresh.
+  GitHub Pages' own CDN cache is only 10 minutes (`max-age=600`), so this
+  was very likely the visitor's own browser cache.
+
 ## 2026-07-27 (update 5) — content rewrite + visual redesign
 
 Two rounds of changes requested by the user:
