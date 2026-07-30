@@ -6,12 +6,12 @@ resized and compressed for web use):
 
 | Filename           | Source                                                    |
 |---------------------|------------------------------------------------------------|
-| `larimer-01.jpg`   | Larimer Lounge — full band, color, photo by Ivy Owens       |
-| `larimer-03.jpg`   | Larimer Lounge — black & white, photo by Ivy Owens          |
+| `larimer-01.jpg`   | Larimer Lounge — full band, red/blue stage light, "Larimer Lounge" signage visible |
+| `larimer-03.jpg`   | Larimer Lounge — black & white, full-band action shot        |
 | `lostlake-02.jpg`  | Lost Lake — drummer, candid                                  |
 | `lostlake-03.jpg`  | Lost Lake — bassist, warm stage light                        |
-| `trident-02.jpg`   | Trident — candid, drinks on table in foreground              |
-| `trident-03.jpg`   | Trident — daylight, brick venue, trombones                   |
+| `trident-02.jpg`   | Trident — candid, drinks on table in foreground               |
+| `trident-03.jpg`   | Trident — daylight, brick venue with plants, trio (drums/trombone/guitar) |
 
 To swap any of these out, replace the file (keep the same name) or add a new
 image and update the matching `<figure>`/`<img>` block in the `#gallery`

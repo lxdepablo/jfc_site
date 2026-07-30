@@ -1,5 +1,26 @@
 # Progress Log — Jehovah's Fitness Club website
 
+## 2026-07-29 (update 10) — top-row gallery photos swapped, gallery copy trimmed
+
+- **Removed the intro line** under the Gallery heading ("High-res live
+  photos for press, promoters, and venues...") and the **photo-credit line**
+  below the grid ("Larimer Lounge photos by Ivy Owens.") — both gone from
+  `index.html`, and the now-unused `.photo-credit` CSS rule was deleted too.
+- **Replaced the top-left and top-middle gallery photos**, leaving the
+  top-right (`lostlake-03.jpg`) untouched per the user's request:
+  - `larimer-01.jpg` (top-left) — now a full-band shot with visible
+    "Larimer Lounge" signage in red/blue stage light, sourced from
+    `Photos/Larimer 1-17/JFClarimer__photobyivyowens-10.jpg`. Replaces the
+    previous all-red full-band shot (same filename reused since it's the
+    same tile/venue slot, resized to 1600px max + compressed to ~444KB).
+  - `trident-03.jpg` (top-middle) — now a daylight brick-venue trio shot
+    (drums/trombone/guitar) with visible greenery, sourced from
+    `Photos/Trident 2-21/260221_TridentCombo.jpeg` — a previously-unused
+    photo set, distinct from the other two Trident tiles which are both
+    from the `Trident 3-21` session. Resized/compressed the same way
+    (~369KB).
+  - Updated `photos/README.md` to describe the new source photos.
+
 ## 2026-07-27 (update 9) — solid red divider, fresh gallery photos
 
 - **Stripe bar (top of page, above footer) is now solid red**, not the

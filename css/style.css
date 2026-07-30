@@ -328,12 +328,6 @@ img { max-width: 100%; display: block; }
   object-fit: cover;
 }
 
-.photo-credit {
-  margin: 20px 0 0;
-  color: var(--ink-dim);
-  font-size: 13px;
-}
-
 .photo-placeholder {
   display: none;
   position: absolute;
