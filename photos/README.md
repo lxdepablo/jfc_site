@@ -1,8 +1,8 @@
 # Press Photos
 
-The Gallery section on the homepage currently uses six live photos, two each
-from Larimer Lounge, Lost Lake, and Trident (sourced from `../Photos/`,
-resized and compressed for web use):
+The Gallery section on the homepage currently uses six live photos — two
+from Larimer Lounge, three from Lost Lake, and one from Trident (sourced
+from `../Photos/`, resized and compressed for web use):
 
 | Filename           | Source                                                    |
 |---------------------|------------------------------------------------------------|
@@ -10,8 +10,8 @@ resized and compressed for web use):
 | `larimer-03.jpg`   | Larimer Lounge — black & white, full-band action shot        |
 | `lostlake-02.jpg`  | Lost Lake — drummer, candid                                  |
 | `lostlake-03.jpg`  | Lost Lake — bassist, warm stage light                        |
+| `lostlake-04.jpg`  | Lost Lake — bassist and keys player, action shot              |
 | `trident-02.jpg`   | Trident — candid, drinks on table in foreground               |
-| `trident-03.jpg`   | Trident — daylight, brick venue with plants, trio (drums/trombone/guitar) |
 
 To swap any of these out, replace the file (keep the same name) or add a new
 image and update the matching `<figure>`/`<img>` block in the `#gallery`

@@ -1,5 +1,15 @@
 # Progress Log — Jehovah's Fitness Club website
 
+## 2026-07-29 (update 11) — top-middle photo swapped for a Lost Lake action shot
+
+Replaced the top-middle gallery tile (`trident-03.jpg`, the daylight
+brick-venue trio shot added in update 10) with a new Lost Lake action shot,
+`lostlake-04.jpg` — bassist and keys player mid-performance, sourced from
+`Photos/Lost Lake 5-30-26/jfc_lostlake-17.jpg` (landscape, already close to
+4:3 so it crops cleanly into the tile). Removed the now-unused
+`trident-03.jpg` file and updated `photos/README.md`. Gallery venue mix is
+now 2 Larimer / 3 Lost Lake / 1 Trident.
+
 ## 2026-07-29 (update 10) — top-row gallery photos swapped, gallery copy trimmed
 
 - **Removed the intro line** under the Gallery heading ("High-res live
